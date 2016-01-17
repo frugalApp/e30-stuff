@@ -60,15 +60,15 @@ public class TalkToCar {
     }
 
     public void lockCar() {
-        sendMsg("SGBC");
+        sendMsg("1234");
     }
 
     public void unlockCar() {
-        sendMsg("OSW ");
+        sendMsg("2345");
     }
 
     public void panic() {
-        sendMsg("1BXQ");
+        sendMsg("3456");
     }
 
     private void sendMsg(String msg) {
